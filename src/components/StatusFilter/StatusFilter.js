@@ -2,7 +2,7 @@
 import { useSelector, useDispatch } from "react-redux";
 
 // Імпортуємо генератор екшену
-import { setStatusFilter } from "redux/actions";
+import { setStatusFilter } from "redux/filtersSlice";
 
 // Імпортуємо об'єкт значень фільтра
 import { statusFilters } from "redux/constants";
